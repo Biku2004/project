@@ -1,0 +1,17 @@
+/* Navbar specific styles */
+.navbar-glow {
+  box-shadow: 0 0 15px rgba(100, 108, 255, 0.3);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 15px rgba(100, 108, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(100, 108, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(100, 108, 255, 0.3);
+  }
+}
